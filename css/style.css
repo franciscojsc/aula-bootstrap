@@ -1,3 +1,19 @@
 .navbar {
   background-color: #7af035;
 }
+
+.container-fluid img {
+  width: 200px;
+  height: 200px;
+}
+
+@media (min-width: 900px) {
+  .container-fluid img {
+    width: 400px;
+    height: 400px;
+  }
+}
+
+.quem-somos {
+  background-color: #e0ffcd;
+}
